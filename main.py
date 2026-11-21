@@ -123,7 +123,7 @@ def pStrip(_word):
 def pLstripRstrip(_word):
     sample = "---left only"
     _student_target = StringManipulationLstrip(sample)
-    target = sample.lstrip("-")  # required .lstrip("-")
+    target = sample.lstrip("-")  
     guess = input(f"Remove leading '-' only : [{sample}]\nAnswer: ")
     ok = guess == target
     return ok, redact(target)
